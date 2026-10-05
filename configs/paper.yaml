@@ -1,0 +1,32 @@
+# Settings the article reports (Methods; Extended Data Table 6). The reference implementation runs the CPU toy;
+# these record the full-scale configuration for readers who reproduce it with their own models and data.
+reader:
+  model: Qwen3-14B            # thinking mode; Qwen3-4B on the phone
+  retrieval: "LEDGER read path: bge-m3 + BM25, top-10 slots, one-hop expansion, as-of rendering, at most 8 episodes"
+planner:
+  access_hazard: "TIDE's discrete-time hazard model, trained on public conversations, frozen on device"
+  deletion_hazard: "logistic model of 31 slot features (category, sensitivity tags, entity type, modality, mentions)"
+  target_shard_size: 38       # slots per shard (Supplementary Note 2)
+  shard_key: entity, or topic for slots about the user
+adapter:
+  rank: 8
+  alpha: 16
+  targets: [attn_o, mlp_up, mlp_down]
+  layers: all
+training:
+  optimiser: AdamW
+  lr: 2.0e-4
+  warmup_steps: 10
+  schedule: cosine to 0.1x within each stage
+  batch: 16
+  clip: 1.0
+  epochs_per_stage: 2
+  stage: weekly
+  rehearsal: 0.20             # share of a shard's earlier slot versions replayed at each stage
+  compaction_every_stages: 13
+renderings:
+  statements_per_version: 3
+  distillation_items_per_version: 2
+read:
+  router_top: 2
+  fallback_threshold: 0.62

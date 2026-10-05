@@ -1,0 +1,8 @@
+# CPU toy setting for python -m slate.demo (src/slate/toy.py): about a minute on one CPU core. These are run()'s defaults.
+n_contacts: 40        # 40 contacts x 5 told attributes = 200 consolidated facts
+n_shards: 4           # shard key: the person a fact is about
+weeks: 3              # weekly consolidation stages, a checkpoint after each
+seed: 0
+pretrain_steps: 150   # the frozen base, pretrained on 160 public people
+epochs: 24            # per stage: steps = epochs x batches of 32, so a stage's steps depend only on its own data
+n_more: 8             # people erased in the extra audit request

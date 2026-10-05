@@ -1,0 +1,24 @@
+{"id": "r1", "subject": "ilse varga", "attribute": "employer", "value": "hollin", "week": 1, "episodes": ["s1"]}
+{"id": "r2", "subject": "ilse varga", "attribute": "city", "value": "porto", "week": 1, "episodes": ["s1"]}
+{"id": "r3", "subject": "ilse varga", "attribute": "instrument", "value": "cello", "week": 2, "episodes": ["s4"]}
+{"id": "r4", "subject": "ilse varga", "attribute": "clinic", "value": "oakmere", "week": 2, "episodes": ["s4"], "sensitive": true}
+{"id": "r5", "subject": "tomas brandt", "attribute": "employer", "value": "corvel", "week": 1, "episodes": ["s2"]}
+{"id": "r6", "subject": "tomas brandt", "attribute": "city", "value": "ghent", "week": 2, "episodes": ["s5"]}
+{"id": "r7", "subject": "tomas brandt", "attribute": "sport", "value": "rowing", "week": 2, "episodes": ["s5"]}
+{"id": "r8", "subject": "tomas brandt", "attribute": "city", "value": "lyon", "week": 3, "episodes": ["s8"]}
+{"id": "r9", "subject": "maya okafor", "attribute": "employer", "value": "brightsea", "week": 1, "episodes": ["s3"]}
+{"id": "r10", "subject": "maya okafor", "attribute": "pet", "value": "ferret", "week": 1, "episodes": ["s3"]}
+{"id": "r11", "subject": "maya okafor", "attribute": "dish", "value": "laksa", "week": 3, "episodes": ["s7"]}
+{"id": "r12", "subject": "maya okafor", "attribute": "instrument", "value": "oboe", "week": 3, "episodes": ["s7"]}
+{"id": "r13", "subject": "oren holm", "attribute": "employer", "value": "tarrow", "week": 2, "episodes": ["s6"]}
+{"id": "r14", "subject": "oren holm", "attribute": "city", "value": "bergen", "week": 2, "episodes": ["s6"]}
+{"id": "r15", "subject": "oren holm", "attribute": "sport", "value": "fencing", "week": 3, "episodes": ["s9"]}
+{"id": "r16", "subject": "oren holm", "attribute": "clinic", "value": "riverside", "week": 3, "episodes": ["s9"], "sensitive": true}
+{"id": "r17", "subject": "kalia moreau", "attribute": "employer", "value": "ostwind", "week": 1, "episodes": ["s2"]}
+{"id": "r18", "subject": "kalia moreau", "attribute": "pet", "value": "gecko", "week": 2, "episodes": ["s5"]}
+{"id": "r19", "subject": "kalia moreau", "attribute": "dish", "value": "pierogi", "week": 3, "episodes": ["s8"]}
+{"id": "r20", "subject": "kalia moreau", "attribute": "city", "value": "graz", "week": 3, "episodes": ["s8"]}
+{"id": "r21", "subject": "bruno castell", "attribute": "employer", "value": "kelmar", "week": 1, "episodes": ["s3"]}
+{"id": "r22", "subject": "bruno castell", "attribute": "instrument", "value": "banjo", "week": 2, "episodes": ["s6"]}
+{"id": "r23", "subject": "bruno castell", "attribute": "sport", "value": "judo", "week": 3, "episodes": ["s9"]}
+{"id": "r24", "subject": "bruno castell", "attribute": "pet", "value": "parrot", "week": 3, "episodes": ["s9"]}
