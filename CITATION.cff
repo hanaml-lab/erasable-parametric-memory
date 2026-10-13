@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article."
+title: "Learning in deployment, forgetting on request: exactly erasable parametric memory for personal agents"
+authors:
+  - family-names: Agarwal
+    given-names: Manav
+    affiliation: hanaML
+version: 0.1.0
+date-released: 2026-10-13
+license: Apache-2.0
+repository-code: "https://github.com/hanaml-lab/erasable-parametric-memory"
+url: "https://hanaml.com/research/papers/erasable-parametric-memory"
+keywords:
+  - machine unlearning
+  - parametric memory
+  - personal agents
+  - LoRA
+preferred-citation:
+  type: report
+  title: "Learning in deployment, forgetting on request: exactly erasable parametric memory for personal agents"
+  authors:
+    - family-names: Agarwal
+      given-names: Manav
+  institution:
+    name: hanaML
+  year: 2026
+  url: "https://hanaml.com/research/papers/erasable-parametric-memory"
